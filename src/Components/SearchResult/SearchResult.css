@@ -1,0 +1,99 @@
+.search-result-item {
+  width: 70%;
+  margin: 2rem auto;
+  border: 1px solid black;
+  padding: 0 1rem 1rem 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 3px 3px 10px rgba(50, 50, 50, 0.75);
+          box-shadow: 3px 3px 10px rgba(50, 50, 50, 0.75);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  animation: show 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation: show 1s;
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.search-result-item h4 {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+}
+
+.search-result-item hr {
+  width: 90%;
+}
+
+.search-result-item .planet-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.5rem 0 0.5rem 0;
+  padding: 0 5%;
+}
+
+.search-result-item .planet-info .image-block {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.search-result-item .planet-info .image-block .planet-image {
+  width: 60%;
+}
+
+.search-result-item .planet-info .planet-desc {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.search-result-item .planet-info .planet-desc ul {
+  list-style: none;
+}
+
+.search-result-item .planet-info .planet-desc ul span {
+  font-weight: 600;
+}
+
+.search-result-item .planet-info .planet-desc .created-date {
+  text-align: end;
+}
+
+@media (max-width: 768px) {
+  .search-result-item .planet-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .search-result-item .planet-info .planet-desc ul {
+    padding: 0%;
+  }
+}
+/*# sourceMappingURL=SearchResult.css.map */

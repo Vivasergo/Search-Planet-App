@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,MADE,CACF,EAAE,CAAC;EACC,WAAW,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,yBAAyB;CACrD",
+    "sources": [
+        "SearchTitle.scss"
+    ],
+    "names": [],
+    "file": "SearchTitle.css"
+}

@@ -1,0 +1,25 @@
+main {
+    .search-input {
+        width: 40%;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        padding-left: 2rem;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        background: 0.2rem / auto 90% url(./images/magnifier.png) no-repeat;
+
+        &:focus {
+            outline: 3px solid rgba(51, 102, 243, 0.62);
+            outline-offset: 1px;
+        }
+    }
+    .error{
+        margin: 2rem;
+        font-size: 1.5rem;
+        color: red;
+    }
+}
